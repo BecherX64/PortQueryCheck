@@ -1,0 +1,4 @@
+cmd /c "C:\OneDrive\OneDrive - DXC Production\Work\_Scripts\PortQuery\PortQueryAD_Old_cmd\portqry.exe" -n localhost -o 88,464,749,750 -p TCP -q
+
+Use netstat -an to check state of the local host's ports
+

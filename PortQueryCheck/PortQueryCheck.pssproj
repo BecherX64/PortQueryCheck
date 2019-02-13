@@ -25,11 +25,8 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Compile Include="PortQueryCheck.psd1" />
-    <Compile Include="PortQueryCheck.psm1" />
-    <Compile Include="PortQueryCheck.tests.ps1" />
+    <Compile Include="PortQueryChecks.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
